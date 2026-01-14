@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact | Mon Portfolio</title>
+</head>
+<body class="dark-page"> <header>
+        <nav>
+            <div class="logo">MON PORTFOLIO</div>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="competences.html">Compétences</a></li>
+                <li><a href="experiences.html">Expériences</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h1 class="page-title">Me Contacter</h1>
+
+        <div class="category-box">
+            <h3 class="category-title">Mes Coordonnées</h3>
+            <div class="items-grid">
+                <div class="item-frame">📧 emre_albayrak1911@outlook.com</div>
+                <a href="http://www.linkedin.com/in/emre-albayrak-5bab90310" target="_blank" class="item-frame" style="text-decoration:none; color:inherit;">🔗 LinkedIn</a>
+            </div>
+        </div>
+
+        <div class="category-box">
+            <h3 class="category-title">Envoyer un message</h3>
+            <form action="mailto:emre_albayrak1911@outlook.com" method="post" enctype="text/plain" class="contact-form">
+                <div class="form-group">
+                    <input type="text" name="nom" placeholder="Votre nom" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Votre adresse email" required>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" rows="5" placeholder="Votre message..." required></textarea>
+                </div>
+                <button type="submit" class="btn-primary">Envoyer le mail</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Emre Albayrak - Tous droits réservés</p>
+    </footer>
+</body>
+</html>
